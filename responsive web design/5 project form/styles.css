@@ -27,13 +27,16 @@ fieldset {
   border-bottom: 3px solid #FFFFFF;
 }
 
-input,
-textarea,
-select {
+select,
+textarea {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 1em;
 }
+
+input {margin: 0 0 0 0;
+  width: 100%;
+  min-height: 1em;}
 
 input, textarea {
   background-color: #ffffff;
@@ -51,5 +54,7 @@ input[type="submit"] {
   border-color: white;
   min-width: 300px;
 }
+
+.input-radio {width:5%}
   
   
