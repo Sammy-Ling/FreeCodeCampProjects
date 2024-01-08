@@ -2,8 +2,7 @@
  Learning Code Basics
 
 
-Basics
-
+# Basics 
 
 
 Html elements have opening and closing tags e.g opens with <h1> and closes with </h1>
@@ -24,7 +23,7 @@ Images and Links
 
 You can add images with the <img> tag, which does NOT have a closing tag
 
-You can use <img src="..." this will specify the location of the image, usually a url
+You can use '<img src=...' this will specify the location of the image, usually a url
 
 It is always good practice to add an  alt="..."  attribute to images, just in case the image does not load
 
