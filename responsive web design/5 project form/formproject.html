@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Freecampcode Survey Form
+</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<h1 id="title">Freecodecamp Survey </h1>
+<p id="description"> Help us improve our website by filling out this survey form</p>
+<form id="survey-form">
+<fieldset>
+  <div class="form-group">
+  <label id="name-label"> Name <input id="name" name="name"type="text"placeholder="Enter your name" required> </label>
+ <label id="email-label"> Email <input id="email" name="email" type="email" placeholder="Enter your Email Address" required> </label>
+ <label id="number-label"> Age <input id="number" name="number" type="number" min="10" max="120"placeholder="Enter your age" required> </label>
+ </div>
+ <div class="form-group">
+ <legend> Select an option that best describes your current role </legend>
+    <select id="dropdown" name="description" required> </label>
+<option value="">(Please select the most applicable to you)</option>
+<option value="1"> Student/Full-time Education</option>
+<option value="2"> Employed part-time </option>
+<option value="3"> Employed full-time</option>
+<option value="4"> Other</option>
+</select>
+</div>
+</fieldset>
+<fieldset>
+<div class="form-group">
+<legend>
+  Why are you learning to code?
+</legend>
+<label for="recreational">
+    <input name="reason" type="radio" value="passion" class="input-radio" >Hobby/Passion</input>
+</label> <br>
+<label for="work">
+    <input name="reason" type="radio" value="knowledge" class="input-radio" >Education/Career</input>
+</label> <br>
+<label for="both">
+    <input name="reason" type="radio" value="both" class="input-radio" >Both</input>
+</label> <br>
+</fieldset>
+<fieldset>
+ </div>
+ <div class="form-group">
+    <legend> What fields of coding do you most enjoy?</legend>
+<label for="front"><input value="front"id="front-end" type="checkbox">  Front-End </label>
+<label for="back"><input value="back"id="back-end" type="checkbox"> Back-End </label>
+<label for="full"><input value="full"id="full-stack" type="checkbox" >  Full-Stack </label>
+<label for="software"><input value="software"id="software-engineer" type="checkbox"> Software Engineer</label> 
+<label for="systems"><input value="systems"id="system-analyst" type="checkbox"> Systems Analyst</label> 
+    </div>
+</fieldset>
+<fieldset>
+<div class="form-group">
+<label>Where do you want to be in 3 years time in your coding journey?
+  <textarea id="future" name="future" rows="4" cols="60" placeholder="I want to be a software developer..."></textarea></label>
+  </div>
+</fieldset>
+<div class="form-group">
+  <input type="submit" class="Submit" id="submit">
+  </div>
+</form>
+</body>
+</html>
